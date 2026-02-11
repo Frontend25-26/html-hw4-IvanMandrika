@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW4 - Три кота</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.scss">
 </head>
 <body>
+    <div class="container">
+        <h1>Три кота</h1>
 
+        <div class="cards-wrapper">
+            <div class="card-css3">
+                <img src="./resources/cat1.jpg" alt="Кот Барсик">
+                <h2>Барсик</h2>
+                <p class="age">Возраст: 3 года</p>
+                <p class="description">Любит спать и играть с мячиком</p>
+                <div class="buttons">
+                    <button class="like-btn">❤️ Лайк</button>
+                    <button class="pet-btn">🐾 Погладить</button>
+                </div>
+            </div>
+
+            <div class="max-w-sm rounded overflow-hidden bg-white border-2 border-gray-300 hover:border-pink-500 p-4">
+                <img class="w-full h-48 object-cover" src="./resources/cat2.jpg" alt="Кот Мурзик">
+                <div class="mb-3">
+                    <div class="font-bold text-xl mb-2">Мурзик</div>
+                    <p class="text-gray-600 text-sm mb-2">Возраст: 2 года</p>
+                    <p class="text-gray-700 text-base">Очень ласковый и любит мурчать</p>
+                </div>
+                <div class="flex gap-2">
+                    <button class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded transition">
+                        ❤️ Лайк
+                    </button>
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition">
+                        🐾 Погладить
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-sass">
+                <img src="./resources/cat3.jpg" alt="Кот Пушок">
+                <h2>Пушок</h2>
+                <p class="age">Возраст: 4 года</p>
+                <p class="description">Пушистый и игривый котик</p>
+                <div class="buttons">
+                    <button class="like-btn">❤️ Лайк</button>
+                    <button class="pet-btn">🐾 Погладить</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

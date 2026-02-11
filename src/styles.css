@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-css3 {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+}
+
+.card-css3:hover {
+    border-color: #ff6b9d;
+}
+
+.card-css3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-css3 h2 {
+    margin: 10px 0;
+}
+
+.card-css3 .age {
+    color: #666;
+    font-size: 14px;
+}
+
+.card-css3 .description {
+    margin: 10px 0;
+}
+
+.card-css3 .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.card-css3 button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-css3 .like-btn {
+    background: #ff6b9d;
+    color: white;
+}
+
+.card-css3 .like-btn:hover {
+    background: #ff4081;
+}
+
+.card-css3 .pet-btn {
+    background: #4fc3f7;
+    color: white;
+}
+
+.card-css3 .pet-btn:hover {
+    background: #29b6f6;
+}
